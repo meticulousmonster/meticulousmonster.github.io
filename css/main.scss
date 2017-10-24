@@ -3,4 +3,9 @@
 ---
 @charset "utf-8";
 
+$font-size-base: 23px;
+$font-family-sans-serif: "Acme", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$standard-margin: 20px;
+
 @import "bootstrap";
+@import "layout";
