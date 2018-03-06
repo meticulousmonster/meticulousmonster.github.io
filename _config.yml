@@ -17,7 +17,7 @@ url: "https://meticulousmonster.com" # the base hostname & protocol for your sit
 exclude: ["working-files"]
 markdown: kramdown
 highligher: rouge
-timezone: America/Central
+timezone: America/Chicago
 
 kramdown:
   input: GFM
