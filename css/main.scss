@@ -3,9 +3,29 @@
 ---
 @charset "utf-8";
 
-$font-size-base: 23px;
+$brand-primary: #D34A00;
+
+$font-size-base: 21px;
 $font-family-sans-serif: "Acme", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $standard-margin: 20px;
+
+$text-color: #202A25;
+$body-bg-color: #E7F4D7;
+$heading-color: $text-color;
+$heading-bg-color: #8AC645;
+
+$navbar-default-color: $heading-color;
+$navbar-default-link-color: $heading-color;
+$navbar-default-link-active-color: $heading-color;
+$navbar-default-link-hover-color: $heading-color;
+$navbar-default-link-hover-bg: darken($heading-bg-color, 5%);
+$navbar-default-bg: $heading-bg-color;
+$navbar-margin-bottom: 0;
+$navbar-default-border: darken($heading-bg-color, 30%);
+$navbar-border-radius: 0;
+$navbar-height: 60px;
+
+$body-bg: $body-bg-color;
 
 @import "bootstrap";
 @import "base";
