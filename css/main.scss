@@ -12,7 +12,10 @@ $standard-margin: 20px;
 $text-color: #202A25;
 $body-bg-color: #E7F4D7;
 $heading-color: $text-color;
-$heading-bg-color: #8AC645;
+$heading-bg-color-1: #8AC645;
+$heading-bg-color-2: #74457C;
+$heading-bg-color-3: $brand-primary;
+$heading-bg-color: $heading-bg-color-1;
 
 $navbar-default-color: $heading-color;
 $navbar-default-link-color: $heading-color;
@@ -23,7 +26,7 @@ $navbar-default-bg: $heading-bg-color;
 $navbar-margin-bottom: 0;
 $navbar-default-border: darken($heading-bg-color, 30%);
 $navbar-border-radius: 0;
-$navbar-height: 60px;
+$navbar-height: 110px;
 
 $body-bg: $body-bg-color;
 
