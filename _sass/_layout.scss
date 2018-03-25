@@ -20,6 +20,22 @@ article {
 }
 
 .bludgeon {
+    .bird-torch {
+        position: absolute;
+        top: 170px;
+
+        &.right {
+            right: 0;
+            transform: scaleX(-1);
+        }
+    }
+
+    .torch {
+        position: absolute;
+        margin-top: -4px;
+        left: -50px;
+    }
+
     h1 {
         text-align: center;
     }

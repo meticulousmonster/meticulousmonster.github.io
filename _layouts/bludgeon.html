@@ -1,12 +1,24 @@
----
-layout: default
----
-<div class="container bludgeon">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-xs-12">
-            <article>
-                {{content}}
-            </article>
+<!DOCTYPE html>
+<html lang="en-US">
+{% include head.html %}
+
+<body class="bludgeon">
+    {% include header.html %}
+    <main>
+        <img src="/images/bird-torch.gif" class="bird-torch left" alt="Bird torch"/>
+        <img src="/images/bird-torch.gif" class="bird-torch right" alt="Bird torch"/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-xs-12">
+                    <article>
+                        {{content}}
+                    </article>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </main>
+    {% include scripts.html %}
+</body>
+
+</html>

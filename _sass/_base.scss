@@ -30,6 +30,28 @@ h2 {
     font-size: 35px;
 }
 
+body.bludgeon {
+    background-color: $bludgeon-bg-color;
+    color: $bludgeon-color;
+
+    nav.navbar {
+        $bludgeon-header-bg-color: lighten($bludgeon-bg-color, 15%);
+        background-color: $bludgeon-header-bg-color;
+
+        a.page-link:hover, a.page-link:focus {
+            background-color: $bludgeon-header-bg-color;
+        }
+    }
+
+    nav.navbar:after {
+        background: linear-gradient(-45deg, $bludgeon-bg-color 16px, transparent 0), linear-gradient(45deg, $bludgeon-bg-color 16px, transparent 0);
+        background-repeat: repeat-x;
+        background-size: 32px 32px;
+        width: 100%;
+        height: 32px;
+    }
+}
+
 .bludgeon {
     h1, h2 {
         font-family: 'Bludgeon', sans-serif;
