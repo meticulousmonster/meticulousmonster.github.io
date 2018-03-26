@@ -20,6 +20,17 @@ article {
 }
 
 .bludgeon {
+    .spike-cover {
+        position: absolute;
+        top: 142px;
+        height: 133px;
+        width: 32px;
+        background-color: $bludgeon-bg-color;
+
+        &.right {
+            right: 0;
+        }
+    }
     .bird-torch {
         position: absolute;
         top: 170px;

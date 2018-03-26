@@ -7,11 +7,11 @@ title: Bludgeon
 
 Bludgeon, an upcoming local multiplayer game, is a death match between bird-riding warriors wielding flails. Evade the spikes and your enemies' weapons in your feeble attempt to survive and become victorious. Grab some controllers and some friends, and prepare to be bludgeoned!
 
-![Trailer coming soon](/images/trailer-coming-soon.png)
+![Trailer coming soon](/images/bludgeon/trailer-coming-soon.png)
 
 Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bludgeon is built knowing there are few things more fun and worthwhile than a room full of friends enjoying a good video game.
 
-![Torch](/images/torch.gif){:.torch}
+![Torch](/images/bludgeon/torch.gif){:.torch}
 ## Features:
 
 - Simple but polished gameplay, centered around use of the flail -- swing it, block with it, and throw it!
@@ -25,7 +25,7 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 - Vague and mysterious powerups (also a work in progress... they are vague and mysterious because I haven't thought of them yet).
 - Pain and death at the hands of your enemies -- or, if you're fortunate enough to win, sorrow and guilt as an undeserving survivor in an uncaring world.
 
-![Torch](/images/torch.gif){:.torch}
+![Torch](/images/bludgeon/torch.gif){:.torch}
 ## Screenshots:
 
 *Insert screenshots here.*
