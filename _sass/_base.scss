@@ -30,6 +30,12 @@ h2 {
     font-size: 35px;
 }
 
+img.bludgeon-link {
+    padding: 10px;
+    border: 7px solid $bludgeon-color;
+    border-radius: 15px;
+}
+
 body.bludgeon {
     background-color: $bludgeon-bg-color;
     color: $bludgeon-color;

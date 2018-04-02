@@ -7,7 +7,7 @@ title: Meticulous Monster
 
 Right now, Meticulous Monster's first game, Bludgeon, is in development. I've been demoing it at some events around the area, and people seem to like it! It's at the point where the core gameplay is pretty much done, and I'm now working on adding more features/levels/characters and polishing it up. Check out more details at the link below!
 
-[*Insert Bludgeon logo here.*](/bludgeon)
+[![Bludgeon](/images/bludgeon/bludgeon-logo.png){:.bludgeon-link}](/bludgeon)
 
 ## About
 
