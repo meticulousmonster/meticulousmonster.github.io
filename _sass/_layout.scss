@@ -4,7 +4,10 @@ nav {
         padding-bottom: 0;
 
         img {
-            margin-left: -60px;
+            margin-left: -35px;
+            @media (min-width: 768px) {
+                margin-left: -60px;
+            }
         }
     }
 }
@@ -21,14 +24,16 @@ article {
 
 .bludgeon {
     .spike-cover {
-        position: absolute;
-        top: 142px;
-        height: 133px;
-        width: 32px;
-        background-color: $bludgeon-bg-color;
+        @media (min-width: 768px) {
+            position: absolute;
+            top: 142px;
+            height: 133px;
+            width: 32px;
+            background-color: $bludgeon-bg-color;
 
-        &.right {
-            right: 0;
+            &.right {
+                right: 0;
+            }
         }
     }
 
@@ -40,12 +45,20 @@ article {
             right: 0;
             transform: scaleX(-1);
         }
+
+        @media (max-width: 767px) {
+            display: none;
+        }
     }
 
     .torch {
         position: absolute;
         margin-top: -4px;
         left: -50px;
+
+        @media (max-width: 799px) {
+            display: none;
+        }
     }
 
     img.logo {

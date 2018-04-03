@@ -46,9 +46,11 @@ body.bludgeon {
     background-color: $bludgeon-bg-color;
     color: $bludgeon-color;
     
-    background-image: url("/images/bludgeon/spikes-left.png"), url("/images/bludgeon/spikes-right.png");
-    background-position-x: left, right;
-    background-repeat: repeat-y, repeat-y;
+    @media (min-width: 768px) {
+        background-image: url("/images/bludgeon/spikes-left.png"), url("/images/bludgeon/spikes-right.png");
+        background-position-x: left, right;
+        background-repeat: repeat-y, repeat-y;
+    }
 
     nav.navbar {
         $bludgeon-header-bg-color: lighten($bludgeon-bg-color, 20%);
