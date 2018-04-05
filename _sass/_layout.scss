@@ -1,4 +1,9 @@
 nav {
+    .navbar-toggle {
+        position: absolute;
+        right: 0;
+    }
+
     .navbar-brand {
         padding-top: 5px;
         padding-bottom: 0;
@@ -8,6 +13,22 @@ nav {
             @media (min-width: 768px) {
                 margin-left: -60px;
             }
+            @media (max-width: 499px) {
+                width: 200px;
+                height: auto;
+                padding-top: 16px;
+            }
+        }
+    }
+
+    #navbar-dropdown {
+        position: absolute;
+        right: 15px;
+        top: 74px;
+        z-index: 500;
+
+        @media (min-width: 768px) {
+            display: none;
         }
     }
 }

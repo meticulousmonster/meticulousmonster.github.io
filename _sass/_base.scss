@@ -21,6 +21,32 @@ nav.navbar {
         }
     }
 
+    .navbar-toggle {
+        border-color: $text-color;
+        border-width: 2px;
+
+        &:hover, &:focus {
+            background-color: $brand-primary;
+        }
+
+        & .icon-bar {
+            background-color: $text-color;
+        }
+    } 
+
+    #navbar-dropdown {
+        a {
+            text-align: right;
+            font-family: $font-family-headings;
+            font-size: 21px;
+            text-decoration: none;
+            border-color: $text-color;
+            border-width: 2px;
+            color: $text-color;
+            background-color: $brand-primary;
+        }
+    }
+
     &:after {
         background: url("/images/zigzag.png");
         background-repeat: repeat-x;
