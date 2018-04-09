@@ -22,15 +22,20 @@ nav.navbar {
     }
 
     .navbar-toggle {
-        border-color: $text-color;
-        border-width: 2px;
+        background-color: $text-color;
+        border: none;
+        border-radius: 0;
 
-        &:hover, &:focus {
-            background-color: inherit;
+        &:focus {
+            background-color: $text-color;
+        }
+
+        &:hover, &:hover:focus {
+            background-color: $brand-primary;
         }
 
         & .icon-bar {
-            background-color: $text-color;
+            background-color: $heading-bg-color;
         }
     } 
 
@@ -142,6 +147,10 @@ body.bludgeon {
         background-color: $bludgeon-header-bg-color;
 
         a.page-link:hover, a.page-link:focus {
+            background-color: $bludgeon-header-bg-color;
+        }
+
+        .navbar-toggle .icon-bar {
             background-color: $bludgeon-header-bg-color;
         }
 
