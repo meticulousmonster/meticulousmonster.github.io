@@ -17,7 +17,7 @@ nav.navbar {
         &:hover {
             transform: scale(1.25);
             color: $brand-primary;
-            border-bottom: 3px solid $brand-primary;
+            border-bottom: 2px solid $brand-primary;
         }
     }
 
@@ -26,7 +26,7 @@ nav.navbar {
         border-width: 2px;
 
         &:hover, &:focus {
-            background-color: $brand-primary;
+            background-color: inherit;
         }
 
         & .icon-bar {
@@ -42,8 +42,14 @@ nav.navbar {
             text-decoration: none;
             border-color: $text-color;
             border-width: 2px;
+            border-radius: 0;
             color: $text-color;
-            background-color: $brand-primary;
+            background-color: $heading-bg-color;
+
+            &:hover {
+                color: $brand-primary;
+                text-decoration: underline;
+            }
         }
     }
 
@@ -65,11 +71,11 @@ h2 {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
         color: $brand-primary;
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 
@@ -82,8 +88,7 @@ img.bludgeon-link {
     transition-timing-function: ease-in-out;
 
     &:hover {
-        transform: rotate(-2deg);
-        border: 7px dashed $bludgeon-color;
+        border-color: $brand-primary;
     }
 }
 
@@ -103,6 +108,12 @@ body.bludgeon {
 
         a.page-link:hover, a.page-link:focus {
             background-color: $bludgeon-header-bg-color;
+        }
+
+        #navbar-dropdown {
+            a {
+                background-color: $bludgeon-header-bg-color;
+            }
         }
     }
 
