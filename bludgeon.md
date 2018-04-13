@@ -5,19 +5,19 @@ title: Bludgeon
 
 ![Bludgeon](/images/bludgeon/bludgeon-logo.gif){:.logo}
 
-Bludgeon, an upcoming local multiplayer game, is a death match between bird-riding warriors wielding flails. Evade the spikes and your enemies' weapons in your feeble attempt to survive and become victorious. Grab some controllers and some friends, and prepare to be bludgeoned!
+Bludgeon, an upcoming local multiplayer game, is a death match between bird-riding warriors wielding flails. *Yes, you heard that right!* Evade the spikes and your enemies' weapons in your feeble attempt to survive and become victorious. Grab some controllers and some friends, and prepare to be bludgeoned!
 
 ![Trailer coming soon](/images/bludgeon/trailer-coming-soon.png)
 
-Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bludgeon is built knowing there are few things more fun and worthwhile than a room full of friends enjoying a good video game.
+Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bludgeon is being built with love, knowing there are few things more fun and worthwhile than a room full of friends enjoying a good video game together.
 
 ![Torch](/images/bludgeon/torch.gif){:.torch}
 ## Features
 
-- Simple but polished gameplay, centered around use of the flail -- swing it, block with it, and throw it!
+- Simple but polished gameplay, centered around use of the flail -- **swing** it, **block** with it, and **throw** it!
 - A unique, sensible control scheme.
 - Risk/reward based gameplay:
-    - If you have your weapon out, you can attack, but it weighs you down and you can't change direction.
+    - If you have your weapon out, you can attack, but it hinders your movement.
     - You can throw your weapon, but that leaves you temporarily defenseless.
     - Keep your weapon out longer for a super-powerful charged attack!
 - Up to four players at once.
@@ -33,6 +33,6 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 ![Torch](/images/bludgeon/torch.gif){:.torch}
 ## Mailing List
 
-Sign up to get notified when the game is released, and also receive other occasional updates.
+Sign up to get notified when the game is released, and also to receive other occasional updates.
 
 {% include email-signup.html %}
