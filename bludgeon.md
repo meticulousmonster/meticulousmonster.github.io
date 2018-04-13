@@ -5,7 +5,7 @@ title: Bludgeon
 
 ![Bludgeon](/images/bludgeon/bludgeon-logo.gif){:.logo}
 
-Bludgeon, an upcoming local multiplayer game, is a death match between bird-riding warriors wielding flails. *Yes, you heard that right!* Evade the spikes and your enemies' weapons in your feeble attempt to survive and become victorious. Grab some controllers and some friends, and prepare to be bludgeoned!
+Bludgeon, an upcoming local multiplayer game, is a death match between bird-riding warriors wielding flails. Evade the spikes and your enemies' weapons in your feeble attempt to survive and become victorious. Grab some controllers and some friends, and prepare to be bludgeoned!
 
 ![Trailer coming soon](/images/bludgeon/trailer-coming-soon.png)
 
