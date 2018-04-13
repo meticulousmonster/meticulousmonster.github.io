@@ -1,0 +1,9 @@
+<div class="row">
+    {% for file in site.static_files %} {% if file.path contains include.path %}
+    <div class="col-md-3 col-sm-4 col-xs-6">
+        <a href="{{site.baseurl}}{{file.path}}">
+            <img src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}" alt="Screenshot" />
+        </a>
+    </div>
+    {% endif %} {% endfor %}
+</div>
