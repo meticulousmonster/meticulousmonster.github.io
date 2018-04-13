@@ -30,6 +30,11 @@ nav {
         @media (min-width: 768px) {
             display: none;
         }
+
+        a.list-group-item {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
     }
 }
 
