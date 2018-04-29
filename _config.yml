@@ -8,7 +8,7 @@
 # Site settings
 title: Meticulous Monster
 description: > # this means to ignore newlines until "baseurl:"
-  Meticulous Monster is an indie game dev company.
+  Meticulous Monster - painstakingly crafting beastly games you care about.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://meticulousmonster.com" # the base hostname & protocol for your site

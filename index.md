@@ -3,9 +3,15 @@ layout: page
 title: Meticulous Monster
 ---
 
+<p class="welcome">Welcome to Meticulous Monster!</p>
+
+<p class="tagline">Painstakingly crafting beastly games you care about.</p>
+
+<hr/>
+
 ## Games
 
-Right now, Meticulous Monster's first game, Bludgeon, is in development. I've been demoing it at some events around the area, and people seem to like it! It's at the point where the core gameplay is close to being finalized, and I'm now working on adding more content and polishing it up. Check out more details at the link below!
+Meticulous Monster's first game, Bludgeon, is currently in development. This is a simple yet engaging local multiplayer game with quick, frantic matches. Check out more details at the link below!
 
 [![Bludgeon](/images/bludgeon/bludgeon-logo.png){:.bludgeon-link}](/bludgeon)
 
@@ -15,7 +21,7 @@ At Meticulous Monster, my goal is to make games that are meaningful to people. G
 
 I've always been a detail-oriented person. *Meticulous*, you might say. When doing work, I tend to agonize over small decisions and exhaustively research the best solution. Doing quality work is important to me, and I hope this comes across in the games I make. Humor is important, too. I may even throw in some nihilism and cynicism along the way. I'm not above that!
 
-If you'd like to read development updates and other articles I write, check out [my personal blog](https://colececil.io/).
+If you'd like to read development updates and other articles I write, check out [my personal blog](https://colececil.io/){:target="_blank"}.
 
 ## Mailing List
 
