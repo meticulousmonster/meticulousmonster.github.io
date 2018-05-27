@@ -1,3 +1,16 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin-bottom: $footer-height;
+
+    @media (max-width: 514px) {
+        margin-bottom: $alternate-footer-height;
+    }
+}
+
 nav {
     .navbar-toggle {
         position: absolute;
@@ -58,6 +71,42 @@ article {
         margin-right: auto;
         display: block;
         max-width: 100%;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: $footer-height;
+    width: 100%;
+
+    @media (max-width: 514px) {
+        height: $alternate-footer-height;
+    }
+
+    .footer-text {
+        text-align: center;
+        margin-bottom: ($footer-height - $line-height-computed) / 2;
+        margin-top: ($footer-height - $line-height-computed) / 2;
+
+        @media (min-width: 515px) {
+            float: left;
+
+            .line-break {
+                display: none;
+            }
+        }
+
+        @media (max-width: 514px) {
+            .separator {
+                display: none;
+            }
+
+            .privacy {
+                display: block;
+                margin-top: ($footer-height - $line-height-computed) / 2;
+            }
+        }
     }
 }
 
