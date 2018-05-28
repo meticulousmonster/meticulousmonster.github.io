@@ -3,11 +3,11 @@
     {% for file in site.static_files %}
         {% if file.path contains include.path %}
             <div class="col-md-3 col-sm-4 col-xs-6">
-                <a href="javascript:openImageGallery(galleryItems, {% increment index %});" class="gallery-item"
-                   data-full-size-src="{{site.baseurl}}{{include.path}}{{file.name}}"
-                   data-thumbnail-src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}"
-                   data-file-name="{{file.name}}">
-                    <img src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}" alt="Screenshot" />
+                <a href="javascript:openImageGallery(galleryItems, {% increment index %}, getThumbnailBounds);">
+                    <img src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}" class="gallery-item" alt="Screenshot"
+                         data-full-size-src="{{site.baseurl}}{{include.path}}{{file.name}}"
+                         data-thumbnail-src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}"
+                         data-file-name="{{file.name}}"/>
                 </a>
             </div>
         {% endif %}
@@ -28,6 +28,17 @@
             h: Number(resolution.split('x')[1])
         });
     }
+
+    function getThumbnailBounds(index) {
+        var thumbnail = document.querySelectorAll('.gallery-item')[index];
+        var pageYScroll = window.pageYOffset || document.documentElement.scrollTop; 
+        var rect = thumbnail.getBoundingClientRect(); 
+        return {
+            x: rect.left,
+            y: rect.top + pageYScroll,
+            w: rect.width
+        };
+    }
 </script>
 
 <!-- PhotoSwipe element (copied from documentation) -->
@@ -43,7 +54,6 @@
             <div class="pswp__top-bar">
                 <div class="pswp__counter"></div>
                 <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
                 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
                 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
                 <div class="pswp__preloader">
@@ -53,9 +63,6 @@
                       </div>
                     </div>
                 </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
             </div>
             <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
             </button>

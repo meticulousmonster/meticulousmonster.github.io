@@ -7,10 +7,12 @@
 <script src="{{"/scripts/photoswipe/photoswipe.min.js" | prepend: site.baseurl}}"></script> 
 <script src="{{"/scripts/photoswipe/photoswipe-ui-default.min.js" | prepend: site.baseurl}}"></script> 
 <script type="text/javascript">
-  function openImageGallery(items, startIndex) {
+  function openImageGallery(items, startIndex, getThumbnailBoundsFn) {
     var photoSwipeElement = document.querySelectorAll('.pswp')[0];
     var options = {
-      index: startIndex
+      index: startIndex,
+      showHideOpacity: true,
+      getThumbBoundsFn: getThumbnailBoundsFn
     };
     var imageGallery = new PhotoSwipe(photoSwipeElement, PhotoSwipeUI_Default, items, options);
     imageGallery.init();
