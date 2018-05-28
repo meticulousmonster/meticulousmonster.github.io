@@ -1,6 +1,22 @@
 <script src="{{"/scripts/jquery-2.2.4.min.js" | prepend: site.baseurl}}"></script>
 <script src="{{"/scripts/bootstrap.min.js" | prepend: site.baseurl}}"></script>
 
+<!-- Image Gallery -->
+<link rel="stylesheet" href="{{"/scripts/photoswipe/photoswipe.css" | prepend: site.baseurl}}"> 
+<link rel="stylesheet" href="{{"/scripts/photoswipe/default-skin/default-skin.css" | prepend: site.baseurl}}"> 
+<script src="{{"/scripts/photoswipe/photoswipe.min.js" | prepend: site.baseurl}}"></script> 
+<script src="{{"/scripts/photoswipe/photoswipe-ui-default.min.js" | prepend: site.baseurl}}"></script> 
+<script type="text/javascript">
+  function openImageGallery(items, startIndex) {
+    var photoSwipeElement = document.querySelectorAll('.pswp')[0];
+    var options = {
+      index: startIndex
+    };
+    var imageGallery = new PhotoSwipe(photoSwipeElement, PhotoSwipeUI_Default, items, options);
+    imageGallery.init();
+  }
+</script>
+
 <!-- Analytics -->
 <script type="text/javascript">
 var clicky_site_ids = clicky_site_ids || [];
