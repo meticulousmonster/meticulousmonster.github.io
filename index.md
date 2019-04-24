@@ -5,7 +5,7 @@ title: Meticulous Monster
 
 <p class="welcome">Welcome to Meticulous Monster!</p>
 
-<p class="tagline">Painstakingly crafting beastly games you care about.</p>
+<p class="tagline">Painstakingly crafting beastly games.</p>
 
 <hr/>
 
