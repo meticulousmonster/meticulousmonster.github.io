@@ -13,7 +13,7 @@ title: Meticulous Monster
 
 Meticulous Monster's first game, Bludgeon, is currently in development. This is a simple yet engaging local multiplayer game with quick, frantic matches. Check out more details at the link below!
 
-[![Bludgeon](/images/bludgeon/bludgeon-logo.png){:.bludgeon-link}](/bludgeon)
+[![Bludgeon](/images/bludgeon/bludgeon-logo.png)](/bludgeon)
 
 ## About
 

@@ -128,19 +128,6 @@ footer {
     }
 }
 
-img.bludgeon-link {
-    padding: 10px;
-    border: 7px solid $bludgeon-color;
-    border-radius: 15px;
-    transition-property: all;
-    transition-duration: 100ms;
-    transition-timing-function: ease-in-out;
-
-    &:hover {
-        border-color: $brand-primary;
-    }
-}
-
 #mc_embed_signup {
     input[type="email"] {
         padding: 5px;
