@@ -64,13 +64,19 @@ nav {
 }
 
 article {
-    img, .video {
+    img, .video, .steam iframe {
         margin-top: $standard-margin;
         margin-bottom: $standard-margin;
         margin-left: auto;
         margin-right: auto;
         display: block;
         max-width: 100%;
+    }
+
+    .steam iframe {
+        width: 100%;
+        max-width: 800px;
+        height: 190px;
     }
 }
 
