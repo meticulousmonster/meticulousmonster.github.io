@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{% include head.html %}
+
+<body class="press-kit">
+    {% include header.html %}
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <article>
+                        <div class="row">
+                            <h1>{{ page.title }}</h1>
+
+                            <div class="col-sm-4 fact-sheet">
+                                <h2>Fact Sheet:</h2>
+                                {{ page.factSheet | markdownify }}
+                            </div>
+                            <div class="col-sm-8">
+                                {{content}}
+                            </div>
+
+                            {% for section in page.sections %}
+                                <h2>{{ section.title }}</h2>
+                                {{ section.content | markdownify }}
+                            {% endfor %}
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+
+</html>
