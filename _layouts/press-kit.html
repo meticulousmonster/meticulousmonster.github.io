@@ -22,7 +22,14 @@
 
                             {% for section in page.sections %}
                                 <h2>{{ section.title }}</h2>
-                                {{ section.content | markdownify }}
+                                {% if section.downloadUrl %}
+                                    <a href="{{ section.downloadUrl }}">Download (from Google Drive)</a>
+                                {% endif %}
+                                {% if section.content %}
+                                    {{ section.content | markdownify }}
+                                {% elsif section.gallery %}
+                                    {% include screenshot-gallery.html path=section.imagePath thumbnail-path=section.thumbnailPath %}
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </article>

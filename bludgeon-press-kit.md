@@ -24,8 +24,21 @@ factSheet: |
 sections:
     - title: Videos
       content: some videos
+    - title: Screenshots
+      gallery: true
+      imagePath: /images/press-kits/bludgeon/screenshots/full-size/
+      thumbnailPath: /images/press-kits/bludgeon/screenshots/thumbnails/
+      downloadUrl: https://drive.google.com/drive/folders/1KAbL9vlBq-0aog0JXyO3J0QDvt7OEw6c?usp=sharing
     - title: Logos
-      content: some logos
+      gallery: true
+      imagePath: /images/press-kits/bludgeon/logos/full-size/
+      thumbnailPath: /images/press-kits/bludgeon/logos/thumbnails/
+      downloadUrl: https://drive.google.com/drive/folders/1avl42nXyQzesZGsNaaAt7PgUP0Shnu9U?usp=sharing
+    - title: GIFs
+      gallery: true
+      imagePath: /images/press-kits/bludgeon/gifs/full-size/
+      thumbnailPath: /images/press-kits/bludgeon/gifs/thumbnails/
+      downloadUrl: https://drive.google.com/drive/folders/1MjgLEt29W4l8-fT9SxSYlJsUxQyVRQ6Z?usp=sharing
 ---
 
 ![Bludgeon](/images/press-kits/bludgeon/bludgeon-logo.png)
@@ -48,3 +61,7 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 - Up to four players at once.
 - Several characters and stages to choose from.
 - Pain and death at the hands of your enemies – or, if you’re fortunate, sorrow and guilt as an undeserving survivor in an uncaring world.
+
+## History
+
+Bludgeon started as a month-long game jam hosted by the Iowa City Game Dev Meetup, with the theme "sports which could never exist". The original game game version can be downloaded at [https://ccecil.itch.io/bludgeon-game-jam](https://ccecil.itch.io/bludgeon-game-jam).
