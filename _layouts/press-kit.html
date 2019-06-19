@@ -3,41 +3,42 @@
 {% include head.html %}
 
 <body class="press-kit">
-    {% include header.html %}
+    {% include header.html wide="true" %}
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <article>
-                        <div class="row">
-                            <h1>{{ page.title }}</h1>
-
-                            <div class="col-sm-4 fact-sheet">
-                                <h2>Fact Sheet:</h2>
-                                {{ page.factSheet | markdownify }}
-                            </div>
-                            <div class="col-sm-8">
-                                {{content}}
-                            </div>
-
-                            {% for section in page.sections %}
-                                <h2>{{ section.title }}</h2>
-                                {% if section.downloadUrl %}
-                                    <a href="{{ section.downloadUrl }}">Download (from Google Drive)</a>
-                                {% endif %}
-                                {% if section.content %}
-                                    {{ section.content | markdownify }}
-                                {% elsif section.gallery %}
-                                    {% include screenshot-gallery.html path=section.imagePath thumbnail-path=section.thumbnailPath %}
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    </article>
+            <article>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>{{ page.title }}</h1>
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-md-5 col-sm-6 fact-sheet">
+                        {{ page.factSheet | markdownify }}
+                    </div>
+                    <div class="col-md-7 col-sm-6">
+                        {{content}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        {% for section in page.sections %}
+                            <h2>{{ section.title }}</h2>
+                            {% if section.downloadUrl %}
+                                <a href="{{ section.downloadUrl }}" target="_blank">Download (from Google Drive)</a>
+                            {% endif %}
+                            {% if section.content %}
+                                {{ section.content | markdownify }}
+                            {% elsif section.gallery %}
+                                {% include screenshot-gallery.html path=section.imagePath thumbnail-path=section.thumbnailPath %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </article>
         </div>
     </main>
-    {% include footer.html %}
+    {% include footer.html wide="true" %}
     {% include scripts.html %}
 </body>
 

@@ -1,7 +1,11 @@
 <footer>
     <div class="container">
         <div class="row">
+            {% if include.wide %}
+            <div class="col-xs-12">
+            {% else %}
             <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+            {% endif %}
                 <div class="footer-text">
                     <span class="copyright">
                         {% assign year = site.time | date: "%Y" %}

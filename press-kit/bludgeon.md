@@ -4,7 +4,7 @@ title: Bludgeon Press Kit
 factSheet: |
     **Developer:**
 
-    - [Meticulous Monster](/meticulous-monster-press-kit) (based in Iowa City, Iowa)
+    - [Meticulous Monster](/press-kit/meticulous-monster) (based in Iowa City, Iowa)
 
     **Estimated Release Date:**
 
@@ -12,7 +12,7 @@ factSheet: |
 
     **Platforms:**
 
-    - Windows/Mac/Linux ([Steam](https://store.steampowered.com/app/1087640/Bludgeon/))
+    - Windows/Mac/Linux ([Steam](https://store.steampowered.com/app/1087640/Bludgeon/){:target="_blank"})
 
     **Website:**
 
@@ -26,22 +26,22 @@ sections:
       content: some videos
     - title: Screenshots
       gallery: true
-      imagePath: /images/press-kits/bludgeon/screenshots/full-size/
-      thumbnailPath: /images/press-kits/bludgeon/screenshots/thumbnails/
+      imagePath: /images/press-kit/bludgeon/screenshots/full-size/
+      thumbnailPath: /images/press-kit/bludgeon/screenshots/thumbnails/
       downloadUrl: https://drive.google.com/drive/folders/1KAbL9vlBq-0aog0JXyO3J0QDvt7OEw6c?usp=sharing
     - title: Logos
       gallery: true
-      imagePath: /images/press-kits/bludgeon/logos/full-size/
-      thumbnailPath: /images/press-kits/bludgeon/logos/thumbnails/
+      imagePath: /images/press-kit/bludgeon/logos/full-size/
+      thumbnailPath: /images/press-kit/bludgeon/logos/thumbnails/
       downloadUrl: https://drive.google.com/drive/folders/1avl42nXyQzesZGsNaaAt7PgUP0Shnu9U?usp=sharing
     - title: GIFs
       gallery: true
-      imagePath: /images/press-kits/bludgeon/gifs/full-size/
-      thumbnailPath: /images/press-kits/bludgeon/gifs/thumbnails/
+      imagePath: /images/press-kit/bludgeon/gifs/full-size/
+      thumbnailPath: /images/press-kit/bludgeon/gifs/thumbnails/
       downloadUrl: https://drive.google.com/drive/folders/1MjgLEt29W4l8-fT9SxSYlJsUxQyVRQ6Z?usp=sharing
 ---
 
-![Bludgeon](/images/press-kits/bludgeon/bludgeon-logo.png)
+![Bludgeon](/images/press-kit/bludgeon/bludgeon-logo.png)
 
 ## Description
 
@@ -64,4 +64,4 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 
 ## History
 
-Bludgeon started as a month-long game jam hosted by the Iowa City Game Dev Meetup, with the theme "sports which could never exist". The original game game version can be downloaded at [https://ccecil.itch.io/bludgeon-game-jam](https://ccecil.itch.io/bludgeon-game-jam).
+Bludgeon started as a month-long game jam hosted by the Iowa City Game Dev Meetup, with the theme "sports which could never exist". The original game game version can be downloaded at [https://ccecil.itch.io/bludgeon-game-jam](https://ccecil.itch.io/bludgeon-game-jam){:target="_blank"}.
