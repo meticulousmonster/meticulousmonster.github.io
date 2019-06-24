@@ -23,19 +23,25 @@ factSheet: |
     - [contact@meticulousmonster.com](mailto:contact@meticulousmonster.com)
 sections:
     - title: Videos
-      content: some videos
+      type: video-gallery
+      videoIds:
+        - _W51uzxIkrU
+      downloadUrl: https://drive.google.com/drive/folders/1SZ1zd6aB5_rj2Ru4aM97-dBPEzagLivX?usp=sharing
     - title: Screenshots
-      gallery: true
+      type: image-gallery
       imagePath: /images/press-kit/bludgeon/screenshots/full-size/
+      galleryId: screenshot
       thumbnailPath: /images/press-kit/bludgeon/screenshots/thumbnails/
       downloadUrl: https://drive.google.com/drive/folders/1KAbL9vlBq-0aog0JXyO3J0QDvt7OEw6c?usp=sharing
     - title: Logos
-      gallery: true
+      type: image-gallery
+      galleryId: logo
       imagePath: /images/press-kit/bludgeon/logos/full-size/
       thumbnailPath: /images/press-kit/bludgeon/logos/thumbnails/
       downloadUrl: https://drive.google.com/drive/folders/1avl42nXyQzesZGsNaaAt7PgUP0Shnu9U?usp=sharing
     - title: GIFs
-      gallery: true
+      type: image-gallery
+      galleryId: gif
       imagePath: /images/press-kit/bludgeon/gifs/full-size/
       thumbnailPath: /images/press-kit/bludgeon/gifs/thumbnails/
       downloadUrl: https://drive.google.com/drive/folders/1MjgLEt29W4l8-fT9SxSYlJsUxQyVRQ6Z?usp=sharing

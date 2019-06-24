@@ -30,7 +30,7 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 ![Torch](/images/bludgeon/torch.gif){:.torch}
 ## Screenshots
 
-{% include screenshot-gallery.html path="/images/bludgeon/screenshots/full-size/" thumbnail-path="/images/bludgeon/screenshots/thumbnails/" %}
+{% include image-gallery.html id="screenshot" path="/images/bludgeon/screenshots/full-size/" thumbnail-path="/images/bludgeon/screenshots/thumbnails/" %}
 
 ![Torch](/images/bludgeon/torch.gif){:.torch}
 ## Mailing List

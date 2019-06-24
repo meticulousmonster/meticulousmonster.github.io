@@ -1,27 +1,29 @@
 <!-- Thumbnails -->
 <div class="row">
+    {% assign index = 0 %}
     {% for file in site.static_files %}
         {% if file.path contains include.path %}
             <div class="col-md-3 col-sm-4 col-xs-6">
-                <a href="javascript:openImageGallery(galleryItems, {% increment index %}, getThumbnailBounds);">
-                    <img src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}" class="gallery-item" alt="Screenshot"
+                <a href="javascript:openImageGallery({{include.id}}GalleryItems, {{index}}, {{include.id}}ThumbnailBounds);">
+                    <img src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}" class="gallery-item-{{include.id}}" alt="{{include.id}}"
                          data-full-size-src="{{site.baseurl}}{{include.path}}{{file.name}}"
                          data-thumbnail-src="{{site.baseurl}}{{include.thumbnail-path}}{{file.name}}"
                          data-file-name="{{file.name}}"/>
                 </a>
             </div>
+            {% assign index = index | plus: 1 %}
         {% endif %}
     {% endfor %}
 </div>
 
 <!-- Construct items list -->
 <script type="text/javascript">
-    var galleryItemElements = document.querySelectorAll('.gallery-item');
-    var galleryItems = [];
-    for (var i = 0; i < galleryItemElements.length; i++) {
-        var itemData = galleryItemElements[i].dataset;
+    var {{include.id}}GalleryItemElements = document.querySelectorAll('.gallery-item-{{include.id}}');
+    var {{include.id}}GalleryItems = [];
+    for (var i = 0; i < {{include.id}}GalleryItemElements.length; i++) {
+        var itemData = {{include.id}}GalleryItemElements[i].dataset;
         var resolution = itemData.fileName.slice(itemData.fileName.indexOf('-') + 1, itemData.fileName.indexOf('.'));
-        galleryItems.push({
+        {{include.id}}GalleryItems.push({
             src: itemData.fullSizeSrc,
             msrc: itemData.thumbnailSrc,
             w: Number(resolution.split('x')[0]),
@@ -29,8 +31,8 @@
         });
     }
 
-    function getThumbnailBounds(index) {
-        var thumbnail = document.querySelectorAll('.gallery-item')[index];
+    function {{include.id}}ThumbnailBounds(index) {
+        var thumbnail = document.querySelectorAll('.gallery-item-{{include.id}}')[index];
         var pageYScroll = window.pageYOffset || document.documentElement.scrollTop; 
         var rect = thumbnail.getBoundingClientRect(); 
         return {

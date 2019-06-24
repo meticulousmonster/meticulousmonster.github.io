@@ -24,14 +24,27 @@
                     <div class="col-xs-12">
                         {% for section in page.sections %}
                             <h2>{{ section.title }}</h2>
+
                             {% if section.downloadUrl %}
                                 <a href="{{ section.downloadUrl }}" target="_blank">Download (from Google Drive)</a>
                             {% endif %}
+
                             {% if section.content %}
                                 {{ section.content | markdownify }}
-                            {% elsif section.gallery %}
-                                {% include screenshot-gallery.html path=section.imagePath thumbnail-path=section.thumbnailPath %}
                             {% endif %}
+
+                            {% case section.type %}
+                                {% when 'video-gallery' %}
+                                    <div class="row">
+                                        {% for videoId in section.videoIds %}
+                                            <div class="col-md-4 col-xs-12">
+                                                {% include youtube.html id=videoId %}
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                {% when 'image-gallery' %}
+                                    {% include image-gallery.html id=section.galleryId path=section.imagePath thumbnail-path=section.thumbnailPath %}
+                            {% endcase %}
                         {% endfor %}
                     </div>
                 </div>
