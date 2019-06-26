@@ -4,7 +4,7 @@ title: Bludgeon Press Kit
 factSheet: |
     **Developer:**
 
-    - [Meticulous Monster](/press-kit/meticulous-monster) (based in Iowa City, Iowa)
+    - [Meticulous Monster](/press-kit/meticulous-monster/)
 
     **Estimated Release Date:**
 
@@ -16,7 +16,7 @@ factSheet: |
 
     **Website:**
 
-    - [meticulousmonster.com](https://meticulousmonster.com/)
+    - [meticulousmonster.com/bludgeon/](https://meticulousmonster.com/bludgeon/)
 
     **Press contact:**
 
@@ -70,4 +70,4 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 
 ## History
 
-Bludgeon started as a month-long game jam hosted by the Iowa City Game Dev Meetup, with the theme "sports which could never exist". The original game game version can be downloaded at [https://ccecil.itch.io/bludgeon-game-jam](https://ccecil.itch.io/bludgeon-game-jam){:target="_blank"}.
+Bludgeon started in a month-long game jam hosted by the Iowa City Game Dev Meetup in December 2015, with the theme "sports which could never exist". The original game jam version can still be downloaded at [https://ccecil.itch.io/bludgeon-game-jam](https://ccecil.itch.io/bludgeon-game-jam){:target="_blank"}.

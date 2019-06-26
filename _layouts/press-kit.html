@@ -29,11 +29,9 @@
                                 <a href="{{ section.downloadUrl }}" target="_blank">Download (from Google Drive)</a>
                             {% endif %}
 
-                            {% if section.content %}
-                                {{ section.content | markdownify }}
-                            {% endif %}
-
                             {% case section.type %}
+                                {% when 'markdown' %}
+                                    {{ section.content | markdownify }}
                                 {% when 'video-gallery' %}
                                     <div class="row">
                                         {% for videoId in section.videoIds %}
