@@ -39,7 +39,7 @@ sections:
 
 ## Description
 
-Meticulous Monster is a one-person indie game development company whose goal is to make fun, polished games that are that are meaningful to people. This can be through various means, such as bringing people together, telling a good story, or creating a unique experience. Inspired by all the great games that have come before, Meticulous Monster wants to play its own part in the evolution of games as a positive force in the world.
+Meticulous Monster is a one-person indie game development company whose goal is to make fun, polished games that are meaningful to people. This can be done in various ways, such as bringing people together, telling a good story, or creating a unique experience. Inspired by all the great games that have come before, Meticulous Monster wants to play its own part in the evolution of games as a positive force in the world.
 
 ## History
 
