@@ -23,8 +23,7 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
     - You can throw your weapon, but that leaves you temporarily defenseless.
     - Keep your weapon out longer for a super-powerful charged attack!
 - Up to four players at once.
-- Several characters and stages to choose from (currently a work in progress).
-- Vague and mysterious powerups (also a work in progress... they are vague and mysterious because I haven't thought of them yet).
+- Several characters and stages to choose from.
 - Pain and death at the hands of your enemies -- or, if you're fortunate, sorrow and guilt as an undeserving survivor in an uncaring world.
 
 ![Torch](/images/bludgeon/torch.gif){:.torch}
