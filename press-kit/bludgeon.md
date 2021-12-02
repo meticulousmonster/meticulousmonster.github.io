@@ -8,7 +8,7 @@ factSheet: |
 
     **Estimated Release Date:**
 
-    - 2021
+    - 2022
 
     **Platforms:**
 
