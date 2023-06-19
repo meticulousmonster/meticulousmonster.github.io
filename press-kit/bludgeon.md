@@ -70,7 +70,7 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 
 ## Press
 
-- **Prima Games:** [Bludgeon | Interview With Cole Cecil of Meticulous Monster](https://primagames.com/featured/bludgeon-interview-cole-cecil-meticulous-monster)
+- **Prima Games:** [Bludgeon \| Interview With Cole Cecil of Meticulous Monster](https://primagames.com/featured/bludgeon-interview-cole-cecil-meticulous-monster)
 
 ## History
 
