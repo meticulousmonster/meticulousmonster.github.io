@@ -68,6 +68,10 @@ Inspired by games like Joust, Towerfall, Super Smash Brothers, and Bomberman, Bl
 - Several characters and stages to choose from.
 - Pain and death at the hands of your enemies – or, if you’re fortunate, sorrow and guilt as an undeserving survivor in an uncaring world.
 
+## Press
+
+- **Prima Games:** [Bludgeon | Interview With Cole Cecil of Meticulous Monster](https://primagames.com/featured/bludgeon-interview-cole-cecil-meticulous-monster)
+
 ## History
 
 Bludgeon got its start in a month-long game jam hosted by the Iowa City Game Dev Meetup in December 2015, with the theme "sports which could never exist". The original game jam version can still be downloaded at [https://ccecil.itch.io/bludgeon-game-jam](https://ccecil.itch.io/bludgeon-game-jam){:target="_blank"}.
