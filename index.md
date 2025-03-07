@@ -21,7 +21,7 @@ At Meticulous Monster, my goal is to make fun games that are meaningful to peopl
 
 I've always been a detail-oriented person. *Meticulous*, you might say. When doing work, I tend to agonize over small decisions and exhaustively research the best solution. Doing quality work is important to me, and I hope this comes across in the games I make.
 
-If you'd like to read development updates and other content from me, check out [my personal blog](https://colececil.io/){:target="_blank"}.
+If you'd like to read development updates and other content from me, check out [my personal blog](https://colececil.dev/){:target="_blank"}.
 
 ## Mailing List
 

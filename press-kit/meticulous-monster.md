@@ -31,7 +31,7 @@ sections:
     - title: Additional Links
       type: markdown
       content: |
-        - Cole Cecil's web site: [colececil.io](https://colececil.io){:target="_blank"}
+        - Cole Cecil's web site: [colececil.dev](https://colececil.dev){:target="_blank"}
         - Cole Cecil's Twitter account: [@colejcecil](https://twitter.com/colejcecil){:target="_blank"}
 ---
 
