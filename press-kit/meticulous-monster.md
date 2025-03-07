@@ -32,7 +32,7 @@ sections:
       type: markdown
       content: |
         - Cole Cecil's web site: [colececil.dev](https://colececil.dev){:target="_blank"}
-        - Cole Cecil's Twitter account: [@colejcecil](https://twitter.com/colejcecil){:target="_blank"}
+        - Cole Cecil's Bluesky account: [@colececil.dev](https://bsky.app/profile/colececil.dev){:target="_blank"}
 ---
 
 ![Meticulous Monster](/images/press-kit/meticulous-monster/meticulous-monster-logo.png)
